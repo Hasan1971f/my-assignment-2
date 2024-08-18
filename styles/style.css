@@ -115,6 +115,41 @@
 
 }
 
+/* run section related styles */
+.run-section{
+   margin-top: 100px;
+   height: 371px;
+   background-color:rgba(34, 34, 34, 1);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.run-image-section img{
+   width: 100%;
+   height: 100%;
+}
+.run-image-section{
+   width: 366px;
+   height: 312px;
+   border: 2px solid red;
+}
+.run-section-title{
+   width: 442px;
+   height: 289px;
+   border: 1px solid red;
+}
+.header-title{
+   font-weight: 900;
+   font-size: 4rem;
+   color: rgba(255, 255, 255, 1);
+}
+.decription{
+   font-weight: 400;
+   font-size: 0.8rem;
+   color:rgba(255, 255, 255, 0.5) ;
+   margin-bottom: 34px;
+}
+
    
   
  
