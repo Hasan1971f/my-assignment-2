@@ -2,9 +2,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+   
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.bg-colors{
+   background: rgba(111, 106, 106,0.264);
+   
+}
+.first-div{
+   width: 1440px;
+   height: 715px;
+   border: 1px solid red;
+   height: 100vh;
+   margin: 0 auto;
+}
+.banner-section-full-height{
+   max-width: 1060px;
+   margin: 0 auto;
+   border: 2px solid green;
+}
+/* sahared styles */
+.displayflex{
+   display: flex;
+}
+.btn-primary{
+   background-color: #E6533C;
+   border: none;
+   border-radius: 46px;
+   padding: 16px 40px;
+}
+
+
+/* nav-bar related style */
+.nav-bar{
+   max-width: 1060px;
+   height: 46px;
+   margin: 0 auto;
+   margin-top: 57px;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid red;
+
+}
+.nav-bar ul{
+
+}
+.nav-bar ul li{
+   list-style: none;
+}
+.nav-bar ul li a{
+   background-color:  #E6533C;
+   border-radius: 46px;
+   margin:0 0 0 10px;
+   padding: 8px 20px 8px 20px;
+   text-decoration: none;
+}
+/* banner related styles */
+
+.banner-conteiner-section{
+   justify-content: space-between;
+   margin-top: 100px;
+   border: 2px solid red;
+}
+.banner-conteiner-section img{
+   border: 2px solid red;
+   margin-left: 150px;
+}
+.banner-content-text-areay{
+   width: 520px;
+   height: 281px;
+   border: 2px solid gray;
+}
+
+
+.your-habits-conteiner{
+   margin-top: 100px;
+}
+.habits-title{
+   width: 671px;
+   height: 120px;
+   border: 1px solid red;
+   margin: 0 auto;
+   text-align: center;
+}
+.picture{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-content: space-between;
+   gap: 20px;
+   border-radius: 100px;
+ 
+}
+.picture-container img{
+   border:4px solid rgba(255, 255, 255, 0.1) ;
+   border-radius: 100px;
+}
+.picture-container{
+   border: 2px solid red;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+   
+  
+ 
+   
+   
+  
+   
+
+
+
+
+
+
+ 
+ 
