@@ -19,16 +19,18 @@
    
 }
 .first-div{
+   background:rgba(34, 34, 34, 1);
+   
    width: 1440px;
    height: 715px;
-   border: 1px solid red;
+  
    height: 100vh;
    margin: 0 auto;
 }
 .banner-section-full-height{
    max-width: 1060px;
    margin: 0 auto;
-   border: 2px solid green;
+ 
 }
 /* sahared styles */
 .displayflex{
@@ -50,8 +52,14 @@
    margin-top: 57px;
    align-items: center;
    justify-content: space-between;
-   border: 1px solid red;
+  
 
+}
+.header-fitness{
+   font-weight: 800;
+   font-size: 2rem;
+   font-style: italic;
+   color: #E6533C;
 }
 .nav-bar ul{
 
@@ -71,10 +79,10 @@
 .banner-conteiner-section{
    justify-content: space-between;
    margin-top: 100px;
-   border: 2px solid red;
+ 
 }
 .banner-conteiner-section img{
-   border: 2px solid red;
+ 
    margin-left: 150px;
 }
 .banner-content-text-areay{
@@ -82,15 +90,26 @@
    height: 281px;
    border: 2px solid gray;
 }
-
+.shape{
+   font-weight: 800;
+   font-size: 4rem;
+   color: rgba(255, 255, 255, 1);
+}
+.shape-description{
+   font-weight: 400;
+   font-size: 1rem;
+   color:rgba(255, 255, 255, 1); ;
+}
 
 .your-habits-conteiner{
+   background: rgba(34, 34, 34, 1);;
    margin-top: 100px;
 }
 .habits-title{
+  
    width: 671px;
    height: 120px;
-   border: 1px solid red;
+  
    margin: 0 auto;
    text-align: center;
 }
@@ -107,7 +126,7 @@
    border-radius: 100px;
 }
 .picture-container{
-   border: 2px solid red;
+ 
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -131,12 +150,12 @@
 .run-image-section{
    width: 366px;
    height: 312px;
-   border: 2px solid red;
+ 
 }
 .run-section-title{
    width: 442px;
    height: 289px;
-   border: 1px solid red;
+   
 }
 .header-title{
    font-weight: 900;
@@ -154,16 +173,17 @@
    text-align: center;
 }
 .bmi-container-section{
+   background:rgba(34, 34, 34, 1);
    height: 487px;
    display: flex;
    gap: 100px;
    margin-top: 100px;
-   border: 1px solid red;
+ 
 }
 .calculators{
    width: 400px;
    height: 216px;
-   border: 1px solid red;
+   
 }
 table{
    width: 100%;
@@ -174,22 +194,25 @@ table, th, td{
   padding: 13px 70px 14px 18px ;
 }
 /* Bmi related styles */
+.bmi-container-section{
+  color: rgba(255, 255, 255, 1);;
+}
 .your-bmi-section-description-and-titles{
   width: 577px;
   height: 96px;
-  border: 1px solid red;
+ 
 }
 .your-bmi-container-section{
    width: 577px;
    height: 386px;
-   border: 1px solid red;
+ 
 }
 .input-container{
    display: grid;
    grid-template-columns: repeat(2,1fr);
    width: 100%;
    gap: 10px;
-   border: 1px solid red;
+  
 }
 .static option{
   padding: 12px 20px 12px 20px;
@@ -205,7 +228,96 @@ table, th, td{
 .input-container select{
    padding: 12px 20px 12px 20px;
 }
+/* team related styles */
+.team-container{
+   background:rgba(34, 34, 34, 1);
+   margin-top: 100px;
+}
+.team-title h2{
+  font-weight: 800;
+  font-size: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.team-title p{
+   font-size: 1rem;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+}
+.team-title{
  
+}
+.photo img{
+   width: 100%;
+}
+.photo{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: space-between;
+   row-gap: 5px;
+}
+.photo-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+
+/* footer related styles */
+ .footers{
+   background: rgba(34, 34, 34, 1);
+   height: 249px;
+  
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 100px;
+ }
+ .fitness-footer{
+  
+ 
+ }
+ .fitness-styles{
+   font-weight: 800;
+   font-size: 5rem;
+   font-style: italic;
+   color: #E6533C;
+ }
+ .fitness-description2{
+   font-weight: 400;
+   font-size: 0.8rem;
+   color: rgba(255, 255, 255, 1);;
+ }
+ .fitness-footers h3{
+   margin-bottom: 20px;
+   color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 2rem;
+   
+ }
+ .header-size{
+   color:rgba(255, 255, 255, 1);;
+ }
+ .fitness-footer h5{
+   margin-bottom: 10px;
+   
+ }
+ .header-size2{
+   color: rgba(255, 255, 255, 1);;
+ }
+ hr{
+   margin-top: 50px;
+ }
+ .footer-description{
+   background: rgba(34, 34, 34, 1);;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+ }
    
    
   
