@@ -44,6 +44,7 @@
 }
 
 
+
 /* nav-bar related style */
 .nav-bar{
    max-width: 1060px;
@@ -95,6 +96,9 @@
    font-size: 4rem;
    color: rgba(255, 255, 255, 1);
 }
+.shape1{
+
+}
 .shape-description{
    font-weight: 400;
    font-size: 1rem;
@@ -106,7 +110,7 @@
    margin-top: 100px;
 }
 .habits-title{
-  
+   color:rgba(255, 255, 255, 1);
    width: 671px;
    height: 120px;
   
@@ -119,6 +123,7 @@
    justify-content: space-between;
    gap: 20px;
    border-radius: 100px;
+   color: rgba(255, 255, 255, 1);
  
 }
 .picture-container img{
@@ -314,11 +319,31 @@ table, th, td{
    margin-top: 50px;
  }
  .footer-description{
+   width: 100%;
+   height: 90px;
    background: rgba(34, 34, 34, 1);;
-   text-align: center;
-   color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.5);
  }
    
+   @media screen and (max-width: 576px){
+      .nav-bar, .displayflex, .picture-container, .photo-container, .bmi-container-section{
+         flex-direction: column;
+        
+      }
+
+      .footers, .photo, .static{
+        grid-template-columns: repeat(1,1fr);
+      }
+      
+      
+   }
+    
+        
+
+        
+    
    
   
    
